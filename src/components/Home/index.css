@@ -1,0 +1,75 @@
+.nav-header {
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+  color: aliceblue;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.btn-logout {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: aliceblue;
+  height: 30px;
+  width: 80px;
+  align-self: center;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.head {
+  align-self: center;
+}
+.form-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.target-sec {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.target {
+  align-self: flex-start;
+  flex-direction: row;
+  width: 250px;
+}
+@media screen and (max-width: 780px) {
+  .target-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .target {
+    align-self: flex-start;
+    flex-direction: row;
+    width: auto;
+    margin-top: 30px;
+  }
+}
+.convert-btn {
+  margin-top: 100px !important;
+  align-self: center !important;
+  width: 150px;
+  margin-left: -20px;
+}
